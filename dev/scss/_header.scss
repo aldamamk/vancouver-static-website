@@ -1,11 +1,16 @@
 .header{
     background-color: $headerColor;
-    padding:20px;
 
     .header-logo{
         max-width: 250px;
         max-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
 
+    }
+
+    .header-nav{
+        padding:20px;
     }
 
     a{
