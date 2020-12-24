@@ -3,8 +3,19 @@
     padding:20px;
 
     .header-logo{
-        max-width: 300px;
-        margin-right: auto;
-        margin-left: auto;
+        max-width: 250px;
+        max-height: 100px;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        color:brown;
+        cursor: pointer;
     }
 }
