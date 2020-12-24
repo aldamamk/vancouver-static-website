@@ -1,21 +1,21 @@
 // Place your Sass imports here...
 
-@use '<https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif>';
+@import '<https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif>';
 
 //variables
-@use 'variables';
-@use 'mixins';
+@import 'variables';
+@import 'mixins';
 
 //resets
-@use 'reset';
-@use 'typography';
+@import 'reset';
+@import 'typography';
 
 //html elements
-@use 'header';
-@use 'footer';
-@use 'ham-menu';
-@use 'nav';
-@use 'index-body';
-@use 'main-trails-body';
-@use 'top-trails-body';
-@use 'about-body';
+@import 'header';
+@import 'footer';
+@import 'ham-menu';
+@import 'nav';
+@import 'index-body';
+@import 'main-trails-body';
+@import 'top-trails-body';
+@import 'about-body';
