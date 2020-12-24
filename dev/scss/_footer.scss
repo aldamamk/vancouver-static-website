@@ -1,0 +1,31 @@
+footer{
+    background-color: $headerColor;
+    padding:10px;
+    display: block;
+    text-align: center;
+
+    img{
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        color:white;
+        
+    }
+
+    p{
+        font-weight: 500;
+
+    }
+
+    #credits{
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}

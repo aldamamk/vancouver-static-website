@@ -1,11 +1,80 @@
-#home-banner{
-    position: absolute;
-    top:0;
-    left:0; background-image: url(../images/home-banner-image.jpg);
+.index-banner-image{
+    background-image: url(../images/home-banner-image.jpg);
     height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    object-fit: cover;
-    
+    background-size: cover;
+    position: relative;   
+}
 
+.index-body{
+    h2{
+       text-align: center;
+       padding-top: 10%;
+       padding-bottom: 10%;
+    }
+    p{
+        padding: 0 20px 20px 20px
+    }
+
+    h3{
+        font-size: 2em;
+        padding: 50px 0 20px;
+       
+        
+    }
+    .image-article{
+        text-align: center;
+         padding: 0 20px;
+        img{
+            border-radius: 10px;
+            height: 260px;
+            width: 280px;
+            object-fit: cover;
+            margin: 20px;
+        }
+    }
+}
+
+
+// ==========  WIDE VERSION ==========
+
+.index-body{
+    @media(min-width:650px){
+        .image-article{
+
+            img{
+                margin: 0;
+                margin:30px;
+            }
+        }
+
+        p{
+            margin: 0 40px;
+        }
+    }
+}
+
+
+.index-body{
+    @media(min-width:850px){
+        h2{
+            font-size: 3em;
+            padding-bottom: 5%;
+        }
+        .header-p{
+            margin: 0;
+        }
+
+        p{
+            max-width: 650px;
+            margin: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        
+    }
 }
