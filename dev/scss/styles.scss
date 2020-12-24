@@ -1,7 +1,7 @@
 // Place your Sass imports here...
 
-@import '<https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif>';
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bree+Serif&display=swap');
 //variables
 @import 'variables';
 @import 'mixins';
@@ -19,3 +19,9 @@
 @import 'main-trails-body';
 @import 'top-trails-body';
 @import 'about-body';
+
+
+*{
+    max-width: 1200px;
+    min-width: 320px ;
+}

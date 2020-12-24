@@ -1,0 +1,10 @@
+.header{
+    background-color: $headerColor;
+    padding:20px;
+
+    .header-logo{
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
