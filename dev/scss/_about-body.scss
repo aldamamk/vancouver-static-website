@@ -2,6 +2,10 @@
     .about-im{
         text-align: center;
         padding-bottom: 30px;
+        
+        img{
+            border-radius: 10px;
+        }
     }
     p{
         padding: 10px 20px 30px;
@@ -16,13 +20,16 @@
 
     li{
         text-align: center;
+        padding: 30px 0 10px
     }
 
     ul{
         padding-bottom: 80px;
 
         p{
-            text-align: center;
+            text-align: left;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
     ul a{
@@ -30,5 +37,44 @@
         color: black;
         font-size: 1.75em;
         font-weight: bold;
+    }
+}
+
+.about-body{
+    @include p-on-wide;
+
+   @media(min-width:650px) and (max-width:850px){
+
+        li{
+            padding: 20px 0;
+        }
+
+   }
+
+    @media(min-width:850px){
+
+        ul{
+            display: flex;
+            justify-content: center;
+
+            div{
+                border-right: black 1px solid;
+                border-left: black 1px solid;
+
+                border-radius: 10px;
+                width: 30%;
+                margin: 10px;
+                padding: 10px;
+
+                p{
+                   width: fit-content;
+                   margin-top: 15px;
+                   text-align: left;
+                   padding-bottom: 30px;
+                }
+            }
+        }
+
+       
     }
 }

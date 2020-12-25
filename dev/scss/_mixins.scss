@@ -2,3 +2,40 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+@mixin banner-setting{
+    height: 45vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+@mixin p-on-wide{
+    @media(min-width:650px){
+        
+
+        p{
+           padding: 0 30px; 
+           width: 650px; 
+           margin-right:auto;
+            margin-left: auto;
+
+        }
+
+        h3{
+            font-size: 2em;
+        }
+    }
+
+    @media(min-width:850px){
+
+
+        h2{
+            font-size: 3em;
+        }
+
+    }
+}

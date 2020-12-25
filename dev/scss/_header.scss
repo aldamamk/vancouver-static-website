@@ -1,29 +1,25 @@
 .header{
-    background-color: $headerColor;
+    background-color: $backgroundColor;
     position: static;
     text-align: center;
-
-    .header-nav{
-        padding:20px 20px 0 20px;
-    }
 
     li{
          padding: 5px 10px;
     }
     a{
         text-decoration: none;
-        color: rgb(75, 74, 74);
+        color:black;
         text-transform: capitalize;
-        font-weight: bold;
-        font-size: 1.15em;
-       padding: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.25em;
+        padding: 5px;
         border-radius: 5px;
         
         
     }
 
     a:hover{
-        background-color:rgb(214, 183, 115);
+        color:rgb(170, 168, 175);
         cursor: pointer;
     }
 }

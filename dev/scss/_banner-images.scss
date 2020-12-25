@@ -12,33 +12,17 @@
 
 .about-banner-image{
     background-image: url(../images/about-banner.jpg);
-    height: 60vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;   
+    @include banner-setting; 
 }
 
 .main-trails-banner{
-    background-image: url(../images/about-banner.jpg);
-    height: 60vh;
-    width: 100vw;
-    background-attachment: fixed;
+    background-image: url(../images/main-trails-banner.jpg);
+    @include banner-setting;   
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;   
 }
 
 .top-hikes-banner{
-    background-image: url(../images/about-banner.jpg);
-    height: 60vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;   
+    background-image: url(../images/top-hikes-banner.jpg);
+    @include banner-setting;   
+  
 }
