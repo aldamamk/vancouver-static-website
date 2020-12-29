@@ -13,7 +13,6 @@
 //html elements
 @import 'header';
 @import 'footer';
-@import 'ham-menu';
 @import 'nav';
 @import 'banner-images';
 @import 'index-body';
@@ -21,8 +20,3 @@
 @import 'top-trails-body';
 @import 'about-body';
 
-
-body{
-    max-width: 1500px;
-    min-width: 320px ;
-}
